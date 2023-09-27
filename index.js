@@ -17,7 +17,7 @@ app.use("/api/messages", messageRouter);
 
 mongoose
   .connect(
-    "mongodb://0.0.0.0:27017/chat-app?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.0.1",
+    "mongodb://127.0.0.1:27017/chat-app?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.0.1",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
