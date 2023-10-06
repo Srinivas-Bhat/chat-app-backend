@@ -27,6 +27,7 @@ module.exports.signup = async (req, res, next) => {
 
 module.exports.login = async (req, res, next) => {
   try {
+    console.log(req.body);
     const { username, password } = req.body;
     const user = await UserModel.findOne({ username });
     if (!user) {
