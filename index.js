@@ -18,6 +18,7 @@ app.use("/api/messages", messageRouter);
 mongoose
   .connect(
     "mongodb+srv://Srinivas:srinivasbhat@cluster0.uiww1zj.mongodb.net/chatapp?retryWrites=true&w=majority",
+
     // "mongodb://localhost:27017/chatapp?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.0.1",
     {
       useNewUrlParser: true,
